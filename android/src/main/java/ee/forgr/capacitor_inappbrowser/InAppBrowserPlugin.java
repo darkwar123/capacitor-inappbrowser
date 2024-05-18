@@ -293,6 +293,7 @@ public class InAppBrowserPlugin
       options.setTitle(call.getString("title", ""));
     }
     options.setToolbarColor(call.getString("toolbarColor", "#ffffff"));
+    options.setToolbarTextColor(call.getString("toolbarTextColor", "#000000"));
     options.setArrow(Boolean.TRUE.equals(call.getBoolean("showArrow", false)));
     options.setIgnoreUntrustedSSLError(
       Boolean.TRUE.equals(call.getBoolean("ignoreUntrustedSSLError", false))

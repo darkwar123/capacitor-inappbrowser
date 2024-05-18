@@ -23,6 +23,7 @@ public class Options {
   private PluginCall pluginCall;
   private boolean VisibleTitle;
   private String ToolbarColor;
+  private String ToolbarTextColor;
   private boolean ShowArrow;
   private boolean ignoreUntrustedSSLError;
 
@@ -182,6 +183,14 @@ public class Options {
 
   public void setToolbarColor(String toolbarColor) {
     this.ToolbarColor = toolbarColor;
+  }
+
+  public String getToolbarTextColor() {
+    return ToolbarTextColor;
+  }
+
+  public void setToolbarTextColor(String toolbarTextColor) {
+    this.ToolbarTextColor = toolbarTextColor;
   }
 
   public boolean showArrow() {
